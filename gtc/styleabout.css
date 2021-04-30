@@ -1,0 +1,96 @@
+ body {
+  font-family: Arial;
+  background-color: #f2c94c;
+}
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+   .navbar {
+    margin-bottom: 0;
+    color: black;
+    background: rgba(255,255,255, 0.8);;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: black !important;
+    font-weight: bold;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: black;
+}
+
+.right {
+  right: 0;
+  background-image: url(6.jpg);
+  margin-left:10cm;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.serves{
+  margin-top: 1cm;
+  margin-left: 1cm; 
+  color:white;
+
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  opacity: 0.8;
+  text-align: center;
+
+}
